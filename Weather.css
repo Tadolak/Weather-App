@@ -1,0 +1,56 @@
+h1{
+    font-size: 3.5rem;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+p{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+body{
+    background: linear-gradient(180deg,hsl(210,100%,66%),hsl(40, 100%, 75%));
+    display: flex;
+    background-repeat: no-repeat;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.conteinar{
+    border: solid 1px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+   
+    width: 250px;
+    border-radius: 10px;
+
+}
+button{
+    padding: 10px 20px;
+    background-color: rgb(13, 150, 13);
+    color: aliceblue;
+    font-size: 2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cityInput{
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    border:2px solid hsla(0, 0%, 20%, 0.3);
+    margin: 10px;
+    width: 300px;
+    
+}
+#fake{
+    display: none;
+}
+.descDisplay{
+    font-weight: bold;
+    font-style: italic;
+}
